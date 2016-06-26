@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+
+textarea {
+  width: 200px;
+  height: 80px;
+  margin: 20px auto;
+  display: block;
+  /*border: 2px solid black;*/
+}
+
+#container {
+  width: 80%;
+  /*width: 70%;*/
+  margin: 0 auto;
+}
+
+
+.card {
+  width: 30%;
+  margin: 1.5%;
+  height: 700px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card:nth-of-type(even) {
+  /*background-color: aqua;*/
+  /*background-color: #CCCCFF;*/
+  /*background-color: deepskyblue;*/
+  background-color: #5784c1;
+  /*background-color: #849ca9;*/
+  /*border-radius: 34px 97px 34px 97px;*/
+}
+
+.card:nth-of-type(odd) {
+  /*background-color: gold;*/
+  /*background-color: #FFFFCC;*/
+  background-color: moccasin;
+  /*border-radius: 97px 34px 97px 34px;*/
+}
+
+.card header {
+  text-align: center;
+}
+
+.card p {
+  padding: 5px;
+}
+
+.imageContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 300px;
+  box-shadow: 12px 12px 23px black;
+  /*border-radius: 13%;*/
+  /*transform: rotate(7deg);*/
+ /* transform: rotate(0.5turn);*/
+}
+
+.card footer {
+  text-align: center;
+}
+
+.border {
+  border: 2px dotted black;
+  box-shadow: 3px 3px 10px black;
+}
+
